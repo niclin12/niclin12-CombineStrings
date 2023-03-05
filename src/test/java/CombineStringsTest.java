@@ -14,6 +14,7 @@ public class CombineStringsTest {
         String expected = "abcxyz";
         String actual = cs.combine(input1, input2);
         Assert.assertEquals(expected,actual);
+        System.out.println(input1 + input2);
     }
     /**
      * The combination of strings 123 and 456 should result in 123456.
@@ -25,5 +26,6 @@ public class CombineStringsTest {
         String expected = "123456";
         String actual = cs.combine(input1, input2);
         Assert.assertEquals(expected,actual);
+        System.out.println(input1 + input2);
     }
 }
